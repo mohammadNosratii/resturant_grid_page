@@ -1,14 +1,14 @@
 @font-face {
   font-family: "Vasir Bold";
-  src: url(./font/Vazir-Bold.ttf);
+  src: url(./assets/font/Vazir-Bold.ttf);
 }
 @font-face {
   font-family: "Times-new-roman-italic";
-  src: url(./font/Times-new-roman-italic.ttf);
+  src: url(./assets/font/Times-new-roman-italic.ttf);
 }
 @font-face {
   font-family: "BeauRivage-Regular";
-  src: url(./font/BeauRivage-Regular.ttf);
+  src: url(./assets/font/BeauRivage-Regular.ttf);
 }
 
 html {
@@ -35,7 +35,7 @@ body {
 }
 /* ******* header ******* */
 .header {
-  background-image: url(./images/pexels-roman-odintsov-4553111.jpg);
+  background-image: url(./assets/images/pexels-roman-odintsov-4553111.jpg);
   background-position: center;
   background-repeat: no-repeat;
   height: 500px;
@@ -126,7 +126,7 @@ p {
   margin: 0px;
 }
 .ordering_img_wrapper {
-  background-image: url("./images/pexels-marcus-herzberg-1058277.jpg");
+  background-image: url("./assets/images/pexels-marcus-herzberg-1058277.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -194,23 +194,23 @@ p {
 }
 .gallery_img1_wrapper {
   grid-area: gallery_1;
-  background-image: url(./images/pexels-lawrence-suzara-1581554.jpg);
+  background-image: url(./assets/images/pexels-lawrence-suzara-1581554.jpg);
 }
 .gallery_img2_wrapper {
   grid-area: gallery_2;
-  background-image: url(./images/pexels-dana-tentis-691114.jpg);
+  background-image: url(./assets/images/pexels-dana-tentis-691114.jpg);
 }
 .gallery_img3_wrapper {
   grid-area: gallery_3;
-  background-image: url(./images/pexels-engin-akyurt-1438672.jpg);
+  background-image: url(./assets/images/pexels-engin-akyurt-1438672.jpg);
 }
 .gallery_img4_wrapper {
   grid-area: gallery_4;
-  background-image: url(./images/pexels-pascal-claivaz-410648.jpg);
+  background-image: url(./assets/images/pexels-pascal-claivaz-410648.jpg);
 }
 .gallery_img5_wrapper {
   grid-area: gallery_5;
-  background-image: url(./images/pexels-pixabay-361184.jpg);
+  background-image: url(./assets/images/pexels-pixabay-361184.jpg);
 }
 /* ******* footer ******* */
 .footer {
